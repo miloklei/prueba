@@ -70,6 +70,7 @@ p{
 
 .navbar .flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100%;
@@ -193,10 +194,14 @@ p{
 }
 
 .grid-3 {
-    display: grid;
+    display: flex;
+    flex-flow: row wrap;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
+    flex-basis: 70%;
 }
+
+
 
 .card {
     padding: 10px;
@@ -217,6 +222,8 @@ p{
 footer {
     background-color: #A790A5;
     padding: 22px 10px;
+    display: flex;
+    flex-direction: inherit;
 }
 
 footer a {
