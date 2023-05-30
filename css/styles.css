@@ -236,6 +236,13 @@ p{
     -webkit-border-radius:50%;
 }
 
+.mediosimg{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
     background-color: #A790A5;
     padding: 22px 10px;
